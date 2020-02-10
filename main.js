@@ -14,12 +14,14 @@ list3.innerText = 'I say, "Hi!"';
 
 const image = document.querySelector('img')
 image.src = 'http://www.tioxic.com/wp-content/uploads/trex_4.jpg';
-image.style.fontSize = '300px'
+image.style.height = '300px'
+image.style.width = '300px'
 
 
 const newImage = document.createElement('img');
 newImage.src = 'https://10ztalk.com/wp-content/uploads/2020/02/Trump-Insists-Real-Photo-Revealing-His-Fake-Tan-Is-Fake.jpg'
-newImage.style.fontSize = '300px'
+newImage.style.height = '300px'
+newImage.style.width = '300px'
 const img2 = document.querySelector('div');
 img2.appendChild(newImage);
 
